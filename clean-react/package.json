@@ -1,0 +1,29 @@
+{
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "git-commit-msg-linter": "^4.1.3",
+    "typescript": "^4.7.4"
+  },
+  "name": "clean-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "ansi-styles": "^3.2.1",
+    "chalk": "^2.4.2",
+    "color-convert": "^1.9.3",
+    "color-name": "^1.1.3",
+    "did-you-mean": "^0.0.1",
+    "escape-string-regexp": "^1.0.5",
+    "has-flag": "^4.0.0",
+    "levenshtein": "^1.0.5",
+    "supports-color": "^8.1.1",
+    "underscore": "^1.13.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
