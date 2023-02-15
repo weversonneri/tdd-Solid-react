@@ -36,9 +36,11 @@ module.exports = {
     }]
   },
   devServer: {
-    contentBase: './public',
-    writeToDisk: true, // gera o bundle e levanta o servidor,
-    historyApiFallback: true // pro react mapear qualquer rota, devServer entende somente o index
+    static: './public',
+    historyApiFallback: true, // pro react mapear qualquer rota, devServer entende somente o index
+    devMiddleware: { // gera o bundle e levanta o servidor,
+      writeToDisk: true
+    }
   },
   externals: { // o que tiver aqui nao ficara no bundle
     react: 'React',
